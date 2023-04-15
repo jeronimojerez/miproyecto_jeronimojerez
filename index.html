@@ -11,11 +11,39 @@
     </head>
     <body>
         <!--todas las paginas deben tener el mismo header, mismo footer y distinto main-->
-        <header class="header">
-            <div class="contenedorLogo">
-                <a href="#"><img class="logo" src="./assets/img/logo2-removebg-preview.png" alt="logo"></a>
-                
+        <header class="header container-fluid">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="./assets/img/logo2-removebg-preview.png" alt="Logo Kmon" width="180px">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white fuenteTamanio" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fuenteTamanio" href="./page/pedi_online.html">Pedi Online</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fuenteTamanio" href="./page/contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fuenteTamanio" href="./page/ayuda.html">Ayuda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fuenteTamanio" href="./page/fin_us.html">Find Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
+            <!--CODIGO SIN BOOTSTRAP
             <nav class="navegacion">
                 <ul>
                         <li class="listaItem"><a class="linkNav"  href="#">Inicio</a> </li>
@@ -29,13 +57,64 @@
                 <br>
                 <br>
             </section>
-                
+            -->    
         </header>
-         <main>
+        <main>
             <!-- POSIBLE TITULO-->
             <h1 class="tituloPrincipal"> KMON TUCUMAN </h1>
             <h2 class="subtitulo"> "Servicio de Autos Privados - Viaja con comodidad y estilo"
             </h2>
+            <div class="contenedorParrafo container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col md-6">
+                            <img src="./assets/img/logoMain.jpg" alt="logoMain">
+                        </div>
+                        <div class="col">
+                            <p class="divParrafo"> KMON es una empresa de transporte privado de pasajeros que ofrece un servicio cómodo, seguro y eficiente. Cuenta con una flota de vehículos modernos y conductores profesionales que brindan un servicio personalizado a cada cliente. Los usuarios pueden solicitar el servicio a través de una aplicación móvil fácil de usar, seleccionando el tipo de vehículo y destino deseado. KMON se enfoca en ofrecer una experiencia de transporte sin preocupaciones, permitiendo que los usuarios puedan disfrutar de su viaje sin contratiempos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./assets/img/conductor1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>NO TE RETRASES MAS</h5>
+                        <p>No te preocupes con el horario, KMON te deja a tiempo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/conductor2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/conductor3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- MAIN SIN BOOTSTRAP
             <br>
             <br>
             <br>
@@ -57,13 +136,13 @@
                 <br>
                 <br>
             </div>  
-
+            -->
         </main>
         <footer>
-            <br>
-            <br>
-            <hr>
-
+            <div class="contenedorMapa">
+                <p> PUEDES ENCONTARNOS AQUI </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.467242052804!2d-65.25411158436144!3d-26.825087296017568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225ceddf18a53d%3A0x84a740df7350a4e2!2sAdolfo%20de%20la%20Vega%20300%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1679445046595!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </footer>
         <div class="divFooter">
             <p> © TODOS LOS DERECHOS RESERVADOS | jeronimo jerez</p>

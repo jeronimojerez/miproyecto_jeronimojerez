@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -6,15 +6,26 @@
     
 }
 body{
-    font-family: 'Nunito', sans-serif;
-    background-image: linear-gradient(to left bottom, #ffffff, #d9d3ed, #b6a8da, #967ec5, #7754ae, #6a41a6, #5d2c9e, #501295, #510f9b, #510ba0, #5206a6, #5201ac);
-    color:white;
-
+    font-family: Quicksand;
+    background: rgb(68,50,97);
+    background: linear-gradient(90deg, rgba(68,50,97,1) 0%, rgba(71,21,95,1) 61%, rgba(37,14,83,0.7441351540616247) 98%);
 }
 .header{
-    height: 23vh;
     background: rgb(140,103,203);
     background: linear-gradient(90deg, rgba(140,103,203,1) 0%, rgba(17,4,37,1) 0%, rgba(53,21,95,1) 40%, rgba(53,21,95,1) 64%, rgba(54,20,95,1) 99%, rgba(46,14,83,0.7441351540616247) 100%);
+}
+.fuenteTamanio{
+    font-size: 1.5rem;
+}
+.contenedorParrafo{
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.178);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.divParrafo{
+    font-size: 1.5rem;
+    color: azure;
 }
 .tituloPrincipal{
     color:rgb(255, 255, 255);
@@ -23,6 +34,7 @@ body{
 }
 .subtitulo{
     text-align: center;
+    color: azure;
 }
 .parrafo1{
     font-style: italic;
@@ -47,7 +59,6 @@ body{
     display: inline-block;
     width: 50%;
     text-align: right;
-  
 }
 .listaItem{
     list-style: none;
@@ -62,6 +73,7 @@ body{
 }
 .divFooter{
     text-align: center;
+    color: blueviolet;
 }
 .contenedorFooter{
     margin: 0 auto;
@@ -74,10 +86,10 @@ body{
 }
 .contenedorMapa{
     text-align: center;
-    background-color: #00000036;
+    background-color: #2e0541e0;
     margin-left: 50vh;
     margin-right: 50vh;
-    margin-bottom: 10vh;
-    backdrop-filter: blur(12%);
+    margin-bottom: 20vh;
+    color: azure;
     
 }
