@@ -170,3 +170,21 @@ background-position: center;
 .contenedor_tituloFindUs{
     text-align: center;
 }
+.seccionCards{
+    margin-bottom: 30px;
+}
+.contenedorSubtituloFindUs{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    font-weight: bold;
+    
+}
+.contenedorMapaFindUs{
+    background-color: rgba(255, 255, 255, 0.116);
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    backdrop-filter: blur(5px);
+    color: azure;
+}
