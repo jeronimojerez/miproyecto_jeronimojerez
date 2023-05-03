@@ -5,30 +5,146 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>KMON</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <script src="https://kit.fontawesome.com/f60ba2bc3e.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body class="claseBody">
         <header>
-            <div>
-                <img src="../assets/img/logo.png" alt="logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a> </li>
-                    <li><a href="pedi_online.html">Pedi online</a> </li>
-                    <li><a href="./contacto.html">Contacto</a> </li>
-                    <li><a href="ayuda.html">Ayuda</a> </li>
-                    <li><a href="#">Encontranos</a> </li>
-                </ul>
-            </nav>
-
+            <header class="header container-fluid">
+                <!--<div class="container"> -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="./index.html">
+                                <img src="../assets/img/logo2-removebg-preview.png" alt="Logo Kmon" width="180px">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white fuenteTamanio" aria-current="page" href="../index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fuenteTamanio" href="pedi_online.html">Pedi Online</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fuenteTamanio" href="contacto.html">Contacto</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fuenteTamanio" href="ayuda.html">Ayuda</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fuenteTamanio" href="#">Find Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                <!--</div> -->
+                <!--CODIGO SIN BOOTSTRAP
+                <nav class="navegacion">
+                    <ul>
+                            <li class="listaItem"><a class="linkNav"  href="#">Inicio</a> </li>
+                            <li class="listaItem"><a class="linkNav"  href="./page/pedi_online.html">Pedi online</a> </li>
+                            <li class="listaItem"><a class="linkNav"  href="./page/contacto.html">Contacto</a> </li>
+                            <li class="listaItem"><a class="linkNav"  href="./page/ayuda.html">Ayuda</a> </li>
+                            <li class="listaItem"><a class="linkNav"  href="./page/fin_us.html">Encontranos</a> </li>
+                    </ul>
+                </nav>   
+                <section>
+                    <br>
+                    <br>
+                </section>
+                -->    
+            </header>
         </header>
         <main>
-
+            <h1 class="tituloFindUs"> ENCONTRANOS </h1>
+            <div class="container contenedorMapaFindUs">
+                <div class="container">
+                    <div class="row">
+                      <div class="col order-first">
+                        <p>
+                            KMON es una empresa dedicada a brindar servicios de alta calidad en San Miguel de Tucumán, Tucumán, Argentina. Nuestras oficinas y taller mecánico se encuentran convenientemente ubicados en Adolfo de la Vega 301, en una de las zonas más accesibles y transitadas de la ciudad.
+                        </p>
+                      </div>
+                      <div class="col order-last">
+                        <div class="contenedorMapaII">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.45561519774!2d-65.25517222374683!3d-26.825457289565232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225cedd111f55f%3A0x80fa0ae6cbb80551!2sAdolfo%20de%20la%20Vega%20301%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1682023316432!5m2!1ses!2sar" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="container contenedor_tituloFindUs">
+                <div class="alert alert-warning" role="alert">
+                    RECUERDA SIEMPRE TENER BUENA SEÑAL PARA MEJOR PRECISION!
+                </div>
+            </div>
+            <div class="contenedorSubtituloFindUs">
+                <h2>MANTENTE ACTUALIZADO CON NUESTRAS NOVEDADES</h2>
+            </div>
+            <section class="container seccionCards">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../assets/img/soporteIMG.jpg" class="card-img-top" alt="Soporte tecnico">
+                        <div class="card-body">
+                          <h5 class="card-title">SOPORTE TECNICO LAS 24 HORAS</h5>
+                          <p class="card-text">KMON es una empresa comprometida con la satisfacción de sus clientes. Es por eso que ofrecemos soporte las 24 horas del día, los 7 días de la semana. Ya sea que necesite ayuda con un problema técnico o simplemente tenga alguna pregunta sobre nuestros productos o servicios, nuestro equipo de expertos está listo para atenderlo en cualquier momento. Con KMON, puede estar seguro de que siempre estará en buenas manos.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../assets/img/grupoIMG.jpg" class="card-img-top" alt="Trabajadores">
+                        <div class="card-body">
+                          <h5 class="card-title">ESTAMOS CONTIGO</h5>
+                          <p class="card-text">En KMON nos preocupamos por nuestros empleados y siempre estamos dispuestos a apoyarlos en todo momento. Valoramos un ambiente de trabajo positivo y solidario para lograr el éxito en conjunto.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../assets/img/mecanicoIMG.jpg" class="card-img-top" alt="Taller Mecanico">
+                        <div class="card-body">
+                          <h5 class="card-title">SOPORTE VEHICULAR</h5>
+                          <p class="card-text">En KMON sabemos lo importante que es mantener su vehículo en óptimas condiciones, por eso contamos con un taller mecánico disponible las 24 horas del día. Nuestro equipo de mecánicos altamente capacitados está listo para ofrecer un servicio de reparación y mantenimiento de alta calidad, ya sea que necesite una revisión técnica, un cambio de aceite o una reparación de emergencia. En KMON estamos comprometidos con la satisfacción de nuestros clientes y en brindar un servicio integral para cubrir todas sus necesidades, no dude en contactarnos si necesita ayuda.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
         </main>
-        <footer>
-
+        <footer class="footerClase">
+            <div class="divFooter">
+                <p> © TODOS LOS DERECHOS RESERVADOS 2023 | jeronimo jerez</p>
+            </div>
+            <div class="contenedorFooter">
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-bounce" style="color: #ffffff;"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-bounce" style="color: #ffffff;"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-bounce" style="color: #ffffff;"></i></a>
+            </div>
+            <!-- MAPA SIN BOOTSTRAP
+            <div class="contenedorMapa">
+                <p> PUEDES ENCONTARNOS AQUI </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.467242052804!2d-65.25411158436144!3d-26.825087296017568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225ceddf18a53d%3A0x84a740df7350a4e2!2sAdolfo%20de%20la%20Vega%20300%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1679445046595!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            -->
         </footer>
         
-        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
     </body>
 </html>
