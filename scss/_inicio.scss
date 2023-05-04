@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.claseBody{
+    background-image: url(../assets/img/pexels-tim-samuel-5834948.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    background: rgb(140,103,203);
+    background: linear-gradient(90deg, rgba(140,103,203,1) 0%, rgba(17,4,37,1) 0%, rgba(53,21,95,1) 40%, rgba(53,21,95,1) 64%, rgba(54,20,95,1) 99%, #2e0e53be 100%);
+    .navbar{
+        font-size: 1.5rem;
+        
+        }
+    }
+
+.claseMain{
+    .tituloPrincipal{
+        color:rgb(255, 242, 58);
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+        font-family: Roboto;
+            &:hover{
+            color: rgb(250, 8, 230);
+    }
+    }
+    .subtitulo{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    .contenedorParrafo{
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0);
+        padding: 20px;
+        margin-bottom: 50px;
+        width: 100%;
+        max-width: auto;
+        height: auto;
+        .container{
+            .row{
+                .divImg{
+                    .imgMainDiv{
+                        width: 100%;
+                        height: auto;
+                        max-width: 100%; 
+                        display: block;
+                    }
+                }
+                .col{
+                    .divParrafo{
+                        font-size: 1.5rem;
+                        color: azure;
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+    .contenedorCarrousel{
+        height: auto;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 350px;
+        max-width: 800px;
+        .carouselExampleCaptions{
+            .carousel-item{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+.footerClase{
+    z-index: 9999;
+    background: rgb(140,103,203);
+    background: linear-gradient(90deg, rgba(140,103,203,1) 0%, rgba(17,4,37,1) 0%, rgba(53,21,95,1) 40%, rgba(53,21,95,1) 64%, rgba(54,20,95,1) 99%, rgba(46,14,83,0.7441351540616247) 100%);
+    .divFooter{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        .parrafoFooter{
+            &:hover{
+                color: rgb(246, 250, 28);
+            }
+        }
+    }
+    .contenedorFooter{
+        font-size: 30px;
+        display: flex;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: rgb(140,103,203);
+    background: linear-gradient(90deg, rgba(140,103,203,1) 0%, rgba(17,4,37,1) 0%, rgba(53,21,95,1) 40%, rgba(53,21,95,1) 64%, rgba(54,20,95,1) 99%, #2e0e53be 100%);
+    .navbar{
+        font-size: 1.5rem;
+        
+        }
+    }
+
+.tituloContacto{
+        color:rgb(255, 242, 58);
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+        font-family: Roboto;
+}
+
+.seccionWhatsapp{
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+        .container{
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0);
+            text-align: center;
+            color: azure;
+            font-weight: bold;
+        }
+
+}
+.contenedorCardsContacto{
+    margin-bottom: 20px;
+    background-color: rgb(252, 251, 251);
+    .row{
+        text-align: center;
+        .col{
+            .cards{
+                max-width: 200px;
+            }
+            .card-img-top {
+                height: 150px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.footerClase{
+    z-index: 9999;
+    background: rgb(140,103,203);
+    background: linear-gradient(90deg, rgba(140,103,203,1) 0%, rgba(17,4,37,1) 0%, rgba(53,21,95,1) 40%, rgba(53,21,95,1) 64%, rgba(54,20,95,1) 99%, rgba(46,14,83,0.7441351540616247) 100%);
+    .divFooter{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        .parrafoFooter{
+            &:hover{
+                color: rgb(246, 250, 28);
+            }
+        }
+    }
+    .contenedorFooter{
+        font-size: 30px;
+        display: flex;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+    }
+}
