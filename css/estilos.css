@@ -179,23 +179,37 @@
   margin-top: 20px;
   font-family: Roboto;
 }
+.tituloContacto:hover {
+  color: rgb(226, 11, 197);
+}
 
 .seccionWhatsapp {
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .seccionWhatsapp .container {
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(0, 0, 0, 0.459);
   text-align: center;
   color: azure;
   font-weight: bold;
 }
 
+.contenedorPreguntas {
+  backdrop-filter: blur(10px);
+  background-color: rgba(102, 57, 185, 0.479);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
 .contenedorCardsContacto {
   margin-bottom: 20px;
-  background-color: rgb(252, 251, 251);
+  margin-top: 20px;
+  display: block;
 }
 .contenedorCardsContacto .row {
   text-align: center;
@@ -226,6 +240,126 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7450980392) 100%);
+}
+.header .navbar {
+  font-size: 1.5rem;
+}
+
+.tituloPediOnline {
+  color: rgb(255, 242, 58);
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+.tituloPediOnline:hover {
+  color: rgb(226, 11, 197);
+}
+
+.contenedorPediOnline {
+  text-align: center;
+  color: azure;
+}
+
+.container-fluid {
+  backdrop-filter: blur(10px);
+  background-color: rgba(16, 19, 19, 0);
+  margin-bottom: 40px;
+}
+
+.footerClase {
+  z-index: 9999;
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7441351541) 100%);
+}
+.footerClase .divFooter {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.footerClase .divFooter .parrafoFooter:hover {
+  color: rgb(246, 250, 28);
+}
+.footerClase .contenedorFooter {
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7450980392) 100%);
+}
+.header .navbar {
+  font-size: 1.5rem;
+}
+
+.text-center {
+  color: rgb(255, 242, 58);
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+.text-center:hover {
+  color: rgb(226, 11, 197);
+}
+
+.mb-3 {
+  text-align: center;
+  color: azure;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.parrafoAyuda {
+  text-align: center;
+  color: azure;
+}
+
+.contenedorOl {
+  margin: auto;
+  padding: auto;
+  backdrop-filter: blur(10px);
+  background-color: rgba(16, 19, 19, 0);
+}
+.contenedorOl .listaAyuda {
+  color: azure;
+}
+
+.divAyuda {
+  background-color: rgb(2, 2, 2);
+}
+.divAyuda .h4Section {
+  color: azure;
+  text-align: center;
+}
+
+.contenedorAyuda2 .btn {
+  text-align: center;
+}
+.contenedorAyuda2 .contenedorImgAyuda {
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

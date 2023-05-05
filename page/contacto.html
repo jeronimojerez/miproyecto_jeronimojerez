@@ -10,6 +10,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <script src="https://kit.fontawesome.com/f60ba2bc3e.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="../assets/img/iconoFavicon.png" />
 </head>
 
 <body class="claseBody">
@@ -18,7 +19,7 @@
             <!--<div class="container"> -->
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html">
+                    <a class="navbar-brand" href="../index.html">
                         <img src="../assets/img/logo2-removebg-preview.png" alt="Logo Kmon" width="180px">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -78,14 +79,87 @@
                 </div>
             </div>
         </section>
-        <div class="contenedorCardsContacto"> 
+        <div class="container contenedorPreguntas">
+            <h2>PREGUNTAS FRECUENTES</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#pregunta1">¿Cómo puedo cancelar una orden?</a></li>
+                        <li><a href="#pregunta2">¿Cuál es el tiempo de entrega?</a></li>
+                        <li><a href="#pregunta3">¿Cuáles son los métodos de pago aceptados?</a></li>
+                        <li><a href="#pregunta4">¿Cómo puedo hacer un seguimiento de mi pedido?</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 divPreguntasII">
+                    <ul>
+                        <li><a href="#pregunta5">Unirme a KMON TUCUMAN</a></li>
+                        <li><a href="#pregunta6">Necesito mi PIN</a></li>
+                        <li><a href="#pregunta7">Eliminar cuenta</a></li>
+                        <li><a href="#pregunta8">Agregar metodos de pago</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container contenedorCardsContacto">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../assets/img/imgPersona1.jpg" class="img-fluid rounded-start" alt="testimonios">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Luis Miguel</h5>
+                                    <p class="card-text">Gracias por la atencion y la buena onda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../assets/img/imgPersona2.jpg" class="img-fluid rounded-start" alt="testimonios">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ricardo Perez</h5>
+                                    <p class="card-text">Solucionaron mi problema rapido, recomendados.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../assets/img/imgPersona3.jpg" class="img-fluid rounded-start" alt="testimonios">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Susana Horia</h5>
+                                    <p class="card-text">Por fin una  pagina confiable para viajar con seguridad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="contenedorCardsContacto">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card mx-2 my-1">
                         <img src="../assets/img/imgPersona4.jpg" class="card-img-top" alt="Gente">
                         <div class="card-body">
                             <h5 class="card-title">Jorge Miguel</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
                                 additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
@@ -95,7 +169,8 @@
                         <img src="../assets/img/imgPersona2.jpg" class="card-img-top" alt="Gente">
                         <div class="card-body">
                             <h5 class="card-title">Ricki Martin</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
                                 additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
@@ -105,7 +180,8 @@
                         <img src="../assets/img/imgPersona1.jpg" class="card-img-top" alt="Gente">
                         <div class="card-body">
                             <h5 class="card-title">Steve Jobs</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
                                 additional content.</p>
                         </div>
                     </div>
@@ -115,14 +191,16 @@
                         <img src="../assets/img/imgPersona3.jpg" class="card-img-top" alt="Gente">
                         <div class="card-body">
                             <h5 class="card-title">Susana Horia</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
                                 additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+    -->
+
     </main>
     <footer class="footerClase">
         <div class="divFooter">
