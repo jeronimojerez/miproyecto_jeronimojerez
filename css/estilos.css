@@ -6,9 +6,11 @@
 }
 
 .claseBody {
-  background-image: url(../assets/img/pexels-tim-samuel-5834948.jpg);
+  /*background-image: url(../assets/img/pexels-tim-samuel-5834948.jpg);
   background-size: cover;
   background-position: center;
+  */
+  background-image: linear-gradient(to left bottom, #351164, #30135c, #2b1453, #27144b, #231442, #291746, #301a4b, #361d4f, #4b2360, #632871, #7c2b80, #972d8d);
 }
 
 .header {
@@ -36,13 +38,10 @@
   font-weight: bold;
 }
 .claseMain .contenedorParrafo {
+  color: azure;
+  background-color: rgba(190, 61, 197, 0.2039215686);
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0);
-  padding: 20px;
-  margin-bottom: 50px;
-  width: 100%;
-  max-width: auto;
-  height: auto;
+  text-align: center;
 }
 .claseMain .contenedorParrafo .container .row .divImg .imgMainDiv {
   width: 100%;
@@ -360,6 +359,28 @@
 }
 .contenedorAyuda2 .contenedorImgAyuda {
   text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor404 {
+  text-align: center;
+  color: azure;
+  margin-bottom: 20px;
+}
+.contenedor404 .img404 {
+  border-radius: 20px;
+}
+.contenedor404 .titulo404 {
+  font-size: 4rem;
+}
+
+.contenedorImg404 {
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

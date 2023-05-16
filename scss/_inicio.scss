@@ -6,9 +6,11 @@
 }
 
 .claseBody{
-    background-image: url(../assets/img/pexels-tim-samuel-5834948.jpg);
+    /*background-image: url(../assets/img/pexels-tim-samuel-5834948.jpg);
     background-size: cover;
     background-position: center;
+    */
+    background-image: linear-gradient(to left bottom, #351164, #30135c, #2b1453, #27144b, #231442, #291746, #301a4b, #361d4f, #4b2360, #632871, #7c2b80, #972d8d);
 }
 .header{
     background: rgb(140,103,203);
@@ -37,13 +39,10 @@
         font-weight: bold;
     }
     .contenedorParrafo{
+        color: azure;
+        background-color: #be3dc534;
         backdrop-filter: blur(10px);
-        background-color: rgba(255, 255, 255, 0);
-        padding: 20px;
-        margin-bottom: 50px;
-        width: 100%;
-        max-width: auto;
-        height: auto;
+        text-align: center;
         .container{
             .row{
                 .divImg{
@@ -83,6 +82,7 @@
     z-index: 9999;
     background: rgb(140,103,203);
     background: linear-gradient(90deg, rgba(140,103,203,1) 0%, rgba(17,4,37,1) 0%, rgba(53,21,95,1) 40%, rgba(53,21,95,1) 64%, rgba(54,20,95,1) 99%, rgba(46,14,83,0.7441351540616247) 100%);
+    
     .divFooter{
         text-align: center;
         color: rgb(255, 255, 255);
