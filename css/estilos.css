@@ -1,5 +1,386 @@
-.h1 {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.claseBody {
+  /*background-image: url(../assets/img/pexels-tim-samuel-5834948.jpg);
+  background-size: cover;
+  background-position: center;
+  */
+  background-image: linear-gradient(to left bottom, #351164, #30135c, #2b1453, #27144b, #231442, #291746, #301a4b, #361d4f, #4b2360, #632871, #7c2b80, #972d8d);
+}
+
+.header {
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7450980392) 100%);
+}
+.header .navbar {
+  font-size: 1.5rem;
+}
+
+.claseMain .tituloPrincipal {
+  color: rgb(255, 242, 58);
+  font-size: 3rem;
   text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+.claseMain .tituloPrincipal:hover {
+  color: rgb(250, 8, 230);
+}
+.claseMain .subtitulo {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.claseMain .contenedorParrafo {
+  color: azure;
+  background-color: rgba(190, 61, 197, 0.2039215686);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.claseMain .contenedorParrafo .container .row .divImg .imgMainDiv {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+.claseMain .contenedorParrafo .container .row .col .divParrafo {
+  font-size: 1.5rem;
+  color: azure;
+  position: relative;
+}
+.claseMain .contenedorCarrousel {
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 350px;
+  max-width: 800px;
+}
+.claseMain .contenedorCarrousel .carouselExampleCaptions .carousel-item {
+  max-width: 100%;
+  height: auto;
+}
+
+.footerClase {
+  z-index: 9999;
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7441351541) 100%);
+}
+.footerClase .divFooter {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.footerClase .divFooter .parrafoFooter:hover {
+  color: rgb(246, 250, 28);
+}
+.footerClase .contenedorFooter {
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7450980392) 100%);
+}
+.header .navbar {
+  font-size: 1.5rem;
+}
+
+.tituloFindUs {
+  color: rgb(255, 242, 58);
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+.tituloFindUs:hover {
+  color: rgb(250, 8, 230);
+}
+
+.contenedorMapaFindUs {
+  background-color: rgba(255, 255, 255, 0.116);
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  backdrop-filter: blur(5px);
+  color: azure;
+}
+
+.contenedor_tituloFindUs {
+  text-align: center;
+}
+
+.contenedorSubtituloFindUs {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.seccionCards {
+  margin-bottom: 30px;
+}
+
+.footerClase {
+  z-index: 9999;
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7441351541) 100%);
+}
+.footerClase .divFooter {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.footerClase .divFooter .parrafoFooter:hover {
+  color: rgb(246, 250, 28);
+}
+.footerClase .contenedorFooter {
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7450980392) 100%);
+}
+.header .navbar {
+  font-size: 1.5rem;
+}
+
+.tituloContacto {
+  color: rgb(255, 242, 58);
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+.tituloContacto:hover {
+  color: rgb(226, 11, 197);
+}
+
+.seccionWhatsapp {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.seccionWhatsapp .container {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.459);
+  text-align: center;
+  color: azure;
+  font-weight: bold;
+}
+
+.contenedorPreguntas {
+  backdrop-filter: blur(10px);
+  background-color: rgba(102, 57, 185, 0.479);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.contenedorCardsContacto {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+}
+.contenedorCardsContacto .row {
+  text-align: center;
+}
+.contenedorCardsContacto .row .col .cards {
+  max-width: 200px;
+}
+.contenedorCardsContacto .row .col .card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+.footerClase {
+  z-index: 9999;
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7441351541) 100%);
+}
+.footerClase .divFooter {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.footerClase .divFooter .parrafoFooter:hover {
+  color: rgb(246, 250, 28);
+}
+.footerClase .contenedorFooter {
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7450980392) 100%);
+}
+.header .navbar {
+  font-size: 1.5rem;
+}
+
+.tituloPediOnline {
+  color: rgb(255, 242, 58);
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+.tituloPediOnline:hover {
+  color: rgb(226, 11, 197);
+}
+
+.contenedorPediOnline {
+  text-align: center;
+  color: azure;
+}
+
+.container-fluid {
+  backdrop-filter: blur(10px);
+  background-color: rgba(16, 19, 19, 0);
+  margin-bottom: 40px;
+}
+
+.footerClase {
+  z-index: 9999;
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7441351541) 100%);
+}
+.footerClase .divFooter {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.footerClase .divFooter .parrafoFooter:hover {
+  color: rgb(246, 250, 28);
+}
+.footerClase .contenedorFooter {
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgb(140, 103, 203);
+  background: linear-gradient(90deg, rgb(140, 103, 203) 0%, rgb(17, 4, 37) 0%, rgb(53, 21, 95) 40%, rgb(53, 21, 95) 64%, rgb(54, 20, 95) 99%, rgba(46, 14, 83, 0.7450980392) 100%);
+}
+.header .navbar {
+  font-size: 1.5rem;
+}
+
+.text-center {
+  color: rgb(255, 242, 58);
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+.text-center:hover {
+  color: rgb(226, 11, 197);
+}
+
+.mb-3 {
+  text-align: center;
+  color: azure;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.parrafoAyuda {
+  text-align: center;
+  color: azure;
+}
+
+.contenedorOl {
+  margin: auto;
+  padding: auto;
+  backdrop-filter: blur(10px);
+  background-color: rgba(16, 19, 19, 0);
+}
+.contenedorOl .listaAyuda {
+  color: azure;
+}
+
+.divAyuda {
+  background-color: rgb(2, 2, 2);
+}
+.divAyuda .h4Section {
+  color: azure;
+  text-align: center;
+}
+
+.contenedorAyuda2 .btn {
+  text-align: center;
+}
+.contenedorAyuda2 .contenedorImgAyuda {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor404 {
+  text-align: center;
+  color: azure;
+  margin-bottom: 20px;
+}
+.contenedor404 .img404 {
+  border-radius: 20px;
+}
+.contenedor404 .titulo404 {
+  font-size: 4rem;
+}
+
+.contenedorImg404 {
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

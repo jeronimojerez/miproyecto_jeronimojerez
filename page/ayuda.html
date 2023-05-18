@@ -1,37 +1,143 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>KMON</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/estilos.css">
-    </head>
-    <body>
-        <header>
-            <div>
-                <img src="../assets/img/logo.png" alt="logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a> </li>
-                    <li><a href="pedi_online.html">Pedi online</a> </li>
-                    <li><a href="./contacto.html">Contacto</a> </li>
-                    <li><a href="#">Ayuda</a> </li>
-                    <li><a href="fin_us.html">Find Us</a> </li>
-                </ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMON</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/f60ba2bc3e.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="../assets/img/iconoFavicon.png" />
+</head>
+
+<body class="claseBody">
+    <header>
+        <header class="header container-fluid">
+            <!--<div class="container"> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/img/logo2-removebg-preview.png" alt="Logo Kmon" width="180px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fuenteTamanio" aria-current="page"
+                                    href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fuenteTamanio" href="pedi_online.html">Pedi Online</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fuenteTamanio" href="contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fuenteTamanio" href="#">Ayuda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fuenteTamanio" href="fin_us.html">Find Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-
+            <!--</div> -->
+            <!--CODIGO SIN BOOTSTRAP
+                    <nav class="navegacion">
+                        <ul>
+                                <li class="listaItem"><a class="linkNav"  href="#">Inicio</a> </li>
+                                <li class="listaItem"><a class="linkNav"  href="./page/pedi_online.html">Pedi online</a> </li>
+                                <li class="listaItem"><a class="linkNav"  href="./page/contacto.html">Contacto</a> </li>
+                                <li class="listaItem"><a class="linkNav"  href="./page/ayuda.html">Ayuda</a> </li>
+                                <li class="listaItem"><a class="linkNav"  href="./page/fin_us.html">Encontranos</a> </li>
+                        </ul>
+                    </nav>   
+                    <section>
+                        <br>
+                        <br>
+                    </section>
+                    -->
         </header>
-        <main>
+    </header>
+    <main>
+        <h1 class="text-center my-5">Bienvenido a nuestro servicio de transporte privado</h1>
 
+        <section>
+            <h2 class="mb-3">¿Cómo funciona nuestro servicio?</h2>
+            <p class="parrafoAyuda">En nuestro servicio de transporte privado, podrás solicitar un auto para que te lleve a cualquier lugar
+                de la ciudad. Para pedir un auto, sigue estos pasos:</p>
+            <div class="contenedorOl">
+                <ol class="listaAyuda">
+                    <li>Descarga nuestra aplicación móvil o accede a nuestro sitio web.</li>
+                    <li>Regístrate y crea tu cuenta.</li>
+                    <li>Ingresa tu ubicación actual y el lugar al que quieres ir.</li>
+                    <li>Selecciona el tipo de auto que deseas.</li>
+                    <li>Confirma tu solicitud de viaje y espera a que un conductor acepte.</li>
+                </ol>
+            </div>
+        </section>
 
-        </main>
-        <footer>
+        <section>
+            <h2 class="mb-3">Preguntas frecuentes</h2>
+            <div class="row divAyuda">
+                <div class="col-md-6">
+                    <h4 class="h4Section">¿Cómo puedo cancelar un viaje?</h4>
+                    <p class="parrafoAyuda">Para cancelar un viaje, abre la aplicación y selecciona el viaje que deseas cancelar. Luego, haz
+                        clic en el botón de cancelar y sigue las instrucciones en pantalla.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="h4Section">¿Cómo puedo contactar al conductor?</h4>
+                    <p class="parrafoAyuda">Después de que se te asigne un conductor, podrás ver su información de contacto en la aplicación.
+                        También puedes comunicarte con tu conductor a través de la función de mensajería en la
+                        aplicación.</p>
+                </div>
+            </div>
+        </section>
 
-        </footer>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
-    </body>
+        <section>
+            <div class="contenedorAyuda2">
+                <h2 class="mb-3">Contáctanos</h2>
+            <p class="parrafoAyuda">Si tienes alguna pregunta o comentario, no dudes en contactarnos a través de nuestro formulario de
+                contacto o a través de nuestras redes sociales.</p>
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary">ENVIA TU MENSAJE</a>
+                </div>
+                <div class="contenedorImgAyuda">
+                    <img src="../assets/img/soporteTecnico.jpg" alt="soporte Tecnico" width="500" height="300">
+                </div>
+            
+            
+
+            </div> 
+        </section>
+    </main>
+    <footer class="footerClase">
+        <div class="divFooter">
+            <p class="parrafoFooter"> © TODOS LOS DERECHOS RESERVADOS 2023 | jeronimo jerez</p>
+        </div>
+        <div class="contenedorFooter">
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-bounce" style="color: #ffffff;"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-bounce" style="color: #ffffff;"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-bounce" style="color: #ffffff;"></i></a>
+        </div>
+        <!-- MAPA SIN BOOTSTRAP
+        <div class="contenedorMapa">
+            <p> PUEDES ENCONTARNOS AQUI </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.467242052804!2d-65.25411158436144!3d-26.825087296017568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225ceddf18a53d%3A0x84a740df7350a4e2!2sAdolfo%20de%20la%20Vega%20300%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1679445046595!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
